@@ -1,0 +1,39 @@
+{
+  "name": "node_login_signup_form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "8.2.1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "cookie-parser": "^1.4.1",
+    "express": "*",
+    "express-handlebars": "^3.0.0",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "^5.0.0",
+    "fb": "^2.0.0",
+    "fbgraph": "^1.4.4",
+    "handlebars": "^4.0.11",
+    "mongodb": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-facebook": "^2.1.1",
+    "passport-github": "^1.1.0",
+    "passport-google-oauth1": "^1.0.0",
+    "passport-google-oauth2": "^0.1.6",
+    "passport-http": "*",
+    "passport-local": "*",
+    "passport-local-mongoose": "^4.5.0"
+  }
+}
